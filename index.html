@@ -65,7 +65,7 @@
                         <a class="page-scroll" href="#about">Pogosta vprašanja</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">O nas</a>
+                        <a class="page-scroll" href="#myModal" data-toggle="modal" >O nas</a>
                     </li>
                     <li>
                         <div class="col-lg-12" id="iskalnik">
@@ -79,6 +79,7 @@
                     </li>
                 </ul>
             </div>
+            
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -658,7 +659,7 @@
             </div>
         </div>
     </div>
-
+        
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -674,7 +675,25 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-
+<!-- modal-->
+            <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Modal header</h3>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body…</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                    <button class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+            </div>
+<!--modal end-->
 </body>
 
 </html>

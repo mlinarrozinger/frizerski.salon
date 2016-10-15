@@ -3,8 +3,9 @@
     margin-left: 15px;
     padding-left: 15px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 5px;
-    
-    
+    padding: 10px;
+      
 }
-
+#myModal {
+    position: float;
+}
